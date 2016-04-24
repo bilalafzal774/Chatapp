@@ -1,0 +1,294 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA6D8B271CCCAEAE00D7AFDF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6D8B261CCCAEAE00D7AFDF /* AppDelegate.swift */; };
+		FA6D8B291CCCAEAE00D7AFDF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6D8B281CCCAEAE00D7AFDF /* ViewController.swift */; };
+		FA6D8B2C1CCCAEAE00D7AFDF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA6D8B2A1CCCAEAE00D7AFDF /* Main.storyboard */; };
+		FA6D8B2E1CCCAEAE00D7AFDF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA6D8B2D1CCCAEAE00D7AFDF /* Assets.xcassets */; };
+		FA6D8B311CCCAEAE00D7AFDF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA6D8B2F1CCCAEAE00D7AFDF /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FA6D8B231CCCAEAE00D7AFDF /* BuddyChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BuddyChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA6D8B261CCCAEAE00D7AFDF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FA6D8B281CCCAEAE00D7AFDF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FA6D8B2B1CCCAEAE00D7AFDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FA6D8B2D1CCCAEAE00D7AFDF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA6D8B301CCCAEAE00D7AFDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FA6D8B321CCCAEAE00D7AFDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA6D8B201CCCAEAE00D7AFDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA6D8B1A1CCCAEAE00D7AFDF = {
+			isa = PBXGroup;
+			children = (
+				FA6D8B251CCCAEAE00D7AFDF /* BuddyChat */,
+				FA6D8B241CCCAEAE00D7AFDF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA6D8B241CCCAEAE00D7AFDF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA6D8B231CCCAEAE00D7AFDF /* BuddyChat.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA6D8B251CCCAEAE00D7AFDF /* BuddyChat */ = {
+			isa = PBXGroup;
+			children = (
+				FA6D8B261CCCAEAE00D7AFDF /* AppDelegate.swift */,
+				FA6D8B281CCCAEAE00D7AFDF /* ViewController.swift */,
+				FA6D8B2A1CCCAEAE00D7AFDF /* Main.storyboard */,
+				FA6D8B2D1CCCAEAE00D7AFDF /* Assets.xcassets */,
+				FA6D8B2F1CCCAEAE00D7AFDF /* LaunchScreen.storyboard */,
+				FA6D8B321CCCAEAE00D7AFDF /* Info.plist */,
+			);
+			path = BuddyChat;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA6D8B221CCCAEAE00D7AFDF /* BuddyChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA6D8B351CCCAEAE00D7AFDF /* Build configuration list for PBXNativeTarget "BuddyChat" */;
+			buildPhases = (
+				FA6D8B1F1CCCAEAE00D7AFDF /* Sources */,
+				FA6D8B201CCCAEAE00D7AFDF /* Frameworks */,
+				FA6D8B211CCCAEAE00D7AFDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BuddyChat;
+			productName = BuddyChat;
+			productReference = FA6D8B231CCCAEAE00D7AFDF /* BuddyChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA6D8B1B1CCCAEAE00D7AFDF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = bilal;
+				TargetAttributes = {
+					FA6D8B221CCCAEAE00D7AFDF = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 5GS5K232CP;
+					};
+				};
+			};
+			buildConfigurationList = FA6D8B1E1CCCAEAE00D7AFDF /* Build configuration list for PBXProject "BuddyChat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA6D8B1A1CCCAEAE00D7AFDF;
+			productRefGroup = FA6D8B241CCCAEAE00D7AFDF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA6D8B221CCCAEAE00D7AFDF /* BuddyChat */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA6D8B211CCCAEAE00D7AFDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA6D8B311CCCAEAE00D7AFDF /* LaunchScreen.storyboard in Resources */,
+				FA6D8B2E1CCCAEAE00D7AFDF /* Assets.xcassets in Resources */,
+				FA6D8B2C1CCCAEAE00D7AFDF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA6D8B1F1CCCAEAE00D7AFDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA6D8B291CCCAEAE00D7AFDF /* ViewController.swift in Sources */,
+				FA6D8B271CCCAEAE00D7AFDF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FA6D8B2A1CCCAEAE00D7AFDF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA6D8B2B1CCCAEAE00D7AFDF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FA6D8B2F1CCCAEAE00D7AFDF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA6D8B301CCCAEAE00D7AFDF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA6D8B331CCCAEAE00D7AFDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FA6D8B341CCCAEAE00D7AFDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA6D8B361CCCAEAE00D7AFDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BuddyChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.clout.TheBuddyNetwork.BuddyChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FA6D8B371CCCAEAE00D7AFDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BuddyChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.clout.TheBuddyNetwork.BuddyChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA6D8B1E1CCCAEAE00D7AFDF /* Build configuration list for PBXProject "BuddyChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA6D8B331CCCAEAE00D7AFDF /* Debug */,
+				FA6D8B341CCCAEAE00D7AFDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA6D8B351CCCAEAE00D7AFDF /* Build configuration list for PBXNativeTarget "BuddyChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA6D8B361CCCAEAE00D7AFDF /* Debug */,
+				FA6D8B371CCCAEAE00D7AFDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA6D8B1B1CCCAEAE00D7AFDF /* Project object */;
+}
